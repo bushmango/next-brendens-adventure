@@ -40,7 +40,7 @@ export function gameRestart() {
   getSos().change((ds) => {
     ds.locationId = 'road'
     ds.inventory = []
-    ds.gold = 0
+    ds.gold = 5
   })
 }
 
